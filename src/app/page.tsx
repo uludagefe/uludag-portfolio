@@ -293,7 +293,7 @@ export default function Home() {
             <div className="bg-white rounded-lg border border-gray-100 p-8">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">University of Bremen</h3>
               <p className="text-gray-600 mb-2">Informatics (Computer Science)</p>
-              <p className="text-sm text-gray-500 mb-4">2023 - Present</p>
+              <p className="text-sm text-gray-500 mb-4">2025 - Present</p>
               <p className="text-gray-600">
                 Currently pursuing a degree in Computer Science, focusing on software development and technology innovation.
               </p>
