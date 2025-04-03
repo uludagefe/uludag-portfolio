@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import ScrollButton from '@/components/ScrollButton';
 
@@ -59,22 +58,7 @@ export default function Home() {
     // Add more projects as needed
   ];
 
-  const experiences = [ {}
-      
-  //   {
-  //     title: 'Experience 1',
-  //     company: 'Company 1',
-  //     period: '2023 - Present',
-  //     description: 'Description of experience 1'
-  //   },
-  //   {
-  //     title: 'Experience 2',
-  //     company: 'Company 2',
-  //     period: '2022 - 2023',
-  //     description: 'Description of experience 2'
-  //   },
-  //   // Add more experiences as needed
-  ];
+  // const experiences = [ {} ];  // Commented out since it's not being used
 
   const socialLinks = [
     {
@@ -264,25 +248,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* Experience Section */}
-        {/* <section id="experience" className="py-20 bg-[#FAFAF5]">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center mb-16 text-gray-900">
-              Experience
-            </h2>
-            <div className="space-y-8">
-              {experiences.map((exp, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg border border-gray-100">
-            <h3 className="text-xl font-semibold text-gray-900 mb-1">{exp.title}</h3>
-            <p className="text-gray-600 mb-2">{exp.company}</p>
-            <p className="text-sm text-gray-500 mb-3">{exp.period}</p>
-            <p className="text-gray-600">{exp.description}</p>
-          </div>
-              ))}
-            </div>
-          </div>
-        </section> */}
 
         {/* Education Section */}
         <section id="education" className="py-20 bg-[#F5F5F0]">

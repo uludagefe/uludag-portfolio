@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -91,4 +90,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar; 
+export default Navbar;
