@@ -154,7 +154,7 @@ export default function Home() {
             </h1>
             <p className="text-xl text-[#4A4A45] mb-4">München</p>
             <p className="text-2xl text-[#2D2D2A] mb-8 font-medium italic">
-              "A 18-year-old Computer Engneering Student, passionate about creating innovative solutions."
+              &ldquo;A 18-year-old Computer Engneering Student, passionate about creating innovative solutions.&rdquo;
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <ScrollButton targetId="projects" variant="primary">
