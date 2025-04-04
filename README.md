@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Efecan Uludağ Portfolio 🚀
 
-## Getting Started
+[English](#english) | [Deutsch](#deutsch)
 
-First, run the development server:
+## English
+
+### Welcome to My Portfolio
+
+This is my personal website where I showcase my projects, skills, and experiences. Built with modern web technologies, this portfolio represents my journey in software development and design.
+
+### 🛠️ Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+### 🚀 Features
+
+- Responsive design
+- Dark/Light mode
+- Smooth animations
+- Project showcase
+- Contact form
+- Blog section
+
+### 📥 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/uludag-portfolio.git
+
+# Navigate to project directory
+cd uludag-portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🌐 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit [www.efeuludag.com](https://www.efeuludag.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Deutsch
 
-To learn more about Next.js, take a look at the following resources:
+### 👋 Willkommen auf meiner Website
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dies ist meine persönliche Website, auf der ich meine Projekte, Fähigkeiten und Erfahrungen präsentiere. Dieses Portfolio wurde mit modernen Webtechnologien erstellt und repräsentiert meinen Weg in der Softwareentwicklung und im Design.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🛠️ Verwendete Technologien
 
-## Deploy on Vercel
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🚀 Funktionen
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Responsives Design
+- Hell/Dunkel Modus
+- Flüssige Animationen
+- Projekt-Showcase
+- Kontaktformular
+- Blog-Bereich
+
+### 📥 Installation
+
+```bash
+# Repository klonen
+git clone https://github.com/yourusername/uludag-portfolio.git
+
+# In das Projektverzeichnis wechseln
+cd uludag-portfolio
+
+# Abhängigkeiten installieren
+npm install
+
+# Entwicklungsserver starten
+npm run dev
+```
+
+### 🌐 Live Demo
+
+Besuchen Sie: [www.efeuludag.com](https://www.efeuludag.com)
+
+---
+
+## 📝 License
+
+MIT License © Efe Uludag
