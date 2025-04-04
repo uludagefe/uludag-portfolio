@@ -47,13 +47,26 @@ export default function Home() {
 
   const projects = [
     {
-      title: 'Weather Forecast App',
+      title: 'Restaurant Visitor Prediction',
       logo: '/images/projects/wetter-app.png',
-      revenue: 'Coming Soon!',
-      description: 'Real-time weather forecasting with visitor tracking. Get accurate predictions and see how many people are checking the weather in your area! 🌤️',
+      revenue: 'Beta Testing',
+      description: 'Smart AI system that helps restaurants predict daily customer traffic using weather data and historical patterns. Optimize your staffing and inventory based on accurate visitor forecasts! 🍽️📈',
       link: '#'
     },
-    
+    {
+      title: 'Weather Forecast App',
+      logo: '/images/projects/wetter-app.png',
+      revenue: 'Beta Testing',
+      description: 'AI-powered tool that predicts visitor numbers based on weather conditions. Perfect for businesses to forecast customer traffic based on weather patterns! 📊🌦️',
+      link: '#'
+    },
+    {
+      title: 'Weather Forecast App',
+      logo: '/images/projects/wetter-app.png',
+      revenue: 'Beta Testing',
+      description: 'AI-powered tool that predicts visitor numbers based on weather conditions. Perfect for businesses to forecast customer traffic based on weather patterns! 📊🌦️',
+      link: '#'
+    }
   ];
 
   // const experiences = [ {} ];  // Commented out since it's not being used
@@ -171,7 +184,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-center mb-12 text-[#2D2D2A]">
               Projects
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4">
               {projects.map((project, index) => (
                 <a
                   key={index}
