@@ -29,6 +29,11 @@ export default function Home() {
       category: 'Cloud'
     },
     {
+      name: 'AWS',
+      icon: '/images/skills/aws.svg',
+      category: 'Cloud'
+    },
+    {
       name: 'Pandas',
       icon: '/images/skills/pandas.svg',
       category: 'Data Science'
@@ -42,20 +47,13 @@ export default function Home() {
 
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of project 1',
-      tech: ['React', 'Node.js', 'MongoDB'],
-      image: '/placeholder.png',
+      title: 'Weather Forecast App',
+      logo: '/images/projects/wetter-app.png',
+      revenue: 'Coming Soon!',
+      description: 'Real-time weather forecasting with visitor tracking. Get accurate predictions and see how many people are checking the weather in your area! 🌤️',
       link: '#'
     },
-    {
-      title: 'Project 2',
-      description: 'Description of project 2',
-      tech: ['Python', 'Django', 'PostgreSQL'],
-      image: '/placeholder.png',
-      link: '#'
-    },
-    // Add more projects as needed
+    
   ];
 
   // const experiences = [ {} ];  // Commented out since it's not being used
@@ -64,17 +62,17 @@ export default function Home() {
     {
       name: 'GitHub',
       icon: '/images/social/github.svg',
-      url: '#'
+      url: 'https://github.com/uludagefe'
     },
     {
       name: 'LinkedIn',
       icon: '/images/social/linkedin.svg',
-      url: '#'
+      url: 'https://www.linkedin.com/in/efe-uluda%C4%9F-865306302/'
     },
     {
       name: 'Twitter',
       icon: '/images/social/twitter.svg',
-      url: '#'
+      url: 'https://x.com/EfeUluda1242610'
     }
   ];
 
@@ -170,50 +168,61 @@ export default function Home() {
         {/* Projects Section */}
         <section id="projects" className="py-20 bg-[#FAFAF5]">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center mb-16 text-gray-900">
+            <h2 className="text-3xl font-bold text-center mb-12 text-[#2D2D2A]">
               Projects
             </h2>
-            <div className="grid grid-cols-1 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projects.map((project, index) => (
-                <div 
-                  key={index} 
-                  className="bg-white/80 backdrop-blur-sm rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow"
+                <a
+                  key={index}
+                  href={project.link}
+                  className="block bg-white rounded-xl p-6 hover:shadow-md transition-all duration-200 border border-gray-100 h-full relative"
                 >
-                  <div className="flex items-start space-x-4">
-                    <div className="relative w-16 h-16 flex-shrink-0">
-                      <Image
-                        src={project.image}
-                        alt={project.title}
-                        fill
-                        className="object-cover rounded-xl"
-                      />
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
-                      <p className="text-gray-600 mb-4">{project.description}</p>
-                      <div className="flex flex-wrap gap-2">
-                        {project.tech.map((tech, techIndex) => (
-                          <span
-                            key={techIndex}
-                            className="px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm"
-                          >
-                            {tech}
-                          </span>
-                        ))}
+                  <div className="flex flex-col h-full pb-12">
+                    <div className="flex items-start space-x-4 mb-4">
+                      <div className="relative w-12 h-12 flex-shrink-0">
+                        <Image
+                          src={project.logo}
+                          alt={project.title}
+                          fill
+                          className={`object-contain rounded-lg ${
+                            project.title.includes('AWS') ? 'scale-150 translate-x-2' : ''
+                          }`}
+                        />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-lg font-semibold text-[#2D2D2A] truncate">
+                          {project.title}
+                        </h3>
+                        <span className="text-[#3A5A40] font-medium text-sm">
+                          {project.revenue}
+                        </span>
                       </div>
                     </div>
-                    <div className="flex-shrink-0">
-                      <a 
-                        href={project.link}
-                        className="text-gray-600 hover:text-gray-900 transition-colors"
-                      >
-                        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                      </a>
+                    <div className="flex-1">
+                      <p className="text-[#4A4A45] text-sm mb-4">
+                        {project.description}
+                      </p>
+                      <div className="absolute bottom-0 left-0 right-0 h-12 bg-[#3A5A40] rounded-b-xl flex items-center justify-end px-6 group transition-all duration-300 hover:bg-[#344E38]">
+                        <div className="flex items-center text-white font-medium">
+                          <span className="mr-2 opacity-0 group-hover:opacity-100 transition-all duration-300">View Project</span>
+                          <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="24" 
+                            height="24" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            className="transform transition-all duration-300 group-hover:translate-x-2"
+                          >
+                            <path d="M5 12h14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M12 5l7 7-7 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                          </svg>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </div>
