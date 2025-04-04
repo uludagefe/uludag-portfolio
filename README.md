@@ -1,4 +1,4 @@
-# Efecan Uludağ Portfolio 🚀
+# Efe Uludag Portfolio 🚀
 
 [English](#english) | [Deutsch](#deutsch)
 
