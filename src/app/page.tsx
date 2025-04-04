@@ -53,20 +53,7 @@ export default function Home() {
       description: 'Smart AI system that helps restaurants predict daily customer traffic using weather data and historical patterns. Optimize your staffing and inventory based on accurate visitor forecasts! 🍽️📈',
       link: '#'
     },
-    {
-      title: 'Weather Forecast App',
-      logo: '/images/projects/wetter-app.png',
-      revenue: 'Beta Testing',
-      description: 'AI-powered tool that predicts visitor numbers based on weather conditions. Perfect for businesses to forecast customer traffic based on weather patterns! 📊🌦️',
-      link: '#'
-    },
-    {
-      title: 'Weather Forecast App',
-      logo: '/images/projects/wetter-app.png',
-      revenue: 'Beta Testing',
-      description: 'AI-powered tool that predicts visitor numbers based on weather conditions. Perfect for businesses to forecast customer traffic based on weather patterns! 📊🌦️',
-      link: '#'
-    }
+    
   ];
 
   // const experiences = [ {} ];  // Commented out since it's not being used
