@@ -73,7 +73,13 @@ export default function Home() {
       name: 'Twitter',
       icon: '/images/social/twitter.svg',
       url: 'https://x.com/EfeUluda1242610'
+    },
+    {
+      name: 'Instagram',
+      icon: '/images/social/instagram.svg',
+      url: 'https://www.instagram.com/efe.uludg/'
     }
+
   ];
 
   return (
