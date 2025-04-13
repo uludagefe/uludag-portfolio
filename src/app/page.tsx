@@ -91,7 +91,7 @@ export default function Home() {
             {/* Left side - Logo/Name */}
             <div className="flex items-center space-x-3">
               <Image
-                src="/images/social/image.png"
+                src="/images/social/summerpp.png"
                 alt="Efe Uludag"
                 width={32}
                 height={32}
@@ -146,7 +146,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="mb-6">
               <Image
-                src="/images/social/image.png"
+                src="/images/social/summerpp.png"
                 alt="Efe Uludag"
                 width={240}
                 height={240}
