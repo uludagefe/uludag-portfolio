@@ -267,6 +267,7 @@ export default function Home() {
         {/* Education Section */}
         <section id="education" className="py-20 bg-[#F5F5F0]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/*
             <h2 className="text-3xl font-bold text-center mb-16 text-gray-900">
               Education
             </h2>
@@ -277,7 +278,8 @@ export default function Home() {
               <p className="text-gray-600">
                 Currently pursuing a degree in Computer Science, focusing on software development and technology innovation.
               </p>
-            </div>
+            </div> */}
+
           </div>
         </section>
 
